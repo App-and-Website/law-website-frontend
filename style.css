@@ -3,6 +3,9 @@
 #d1ae6c
 #363435 */
 
+.mobile_logo img{
+    margin-top: -5px;
+}
 .main-nav {
     background-color: #fff;
     padding-top: 0px;
