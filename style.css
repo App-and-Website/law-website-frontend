@@ -278,6 +278,7 @@
     color: #c8a35a;
     font-weight: 600;
     margin-bottom: 5px;
+    font-family: Poppins, sans-serif;
 }
 
 .law-stat-text p {
@@ -285,6 +286,7 @@
     font-size: 24px;
     font-weight: 700;
     color: #c8a35a;
+    font-family: Poppins, sans-serif;
 }
 
 /* === Responsive Breakpoints === */
@@ -367,10 +369,10 @@
     padding-top: 10px;
 }
 .seocontentarea .about-content h2{
-   font-family: Roboto, sans-serif;
+   font-family: Poppins, sans-serif;
 }
 .seocontentarea .about-content p{
-   font-family: Roboto, sans-serif;
+   font-family: Poppins, sans-serif;
 }
 
 

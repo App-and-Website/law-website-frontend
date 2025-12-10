@@ -55,8 +55,12 @@ font-style: normal;
 .flaticon-corporate:before { content: "\f108"; } /* experience / business */
 .flaticon-investment:before { content: "\f112"; } /* money-bag */
 .flaticon-real-estate:before { content: "\f10b"; } /* auction / property */
-.flaticon-ip:before { content: "\f109"; } /* lawyer / IP */
+.flaticon-ip:before { content: "\f10f"; } /* lawyer / IP */
 .flaticon-ngo:before { content: "\f110"; } /* team / NGO */
 .flaticon-family-law:before { content: "\f103"; } /* family */
 .flaticon-regulatory:before { content: "\f10a"; } /* balance / regulatory */
 .flaticon-immigration:before { content: "\f107"; } /* vulnerability / placeholder */
+.flaticon-cross-border:before { 
+    content: "\f10b";   /* pin – best for international / cross-border */
+}
+
