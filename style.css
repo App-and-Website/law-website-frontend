@@ -482,3 +482,9 @@ footer .footer-item .footer-service ul li a:hover {
     margin-left: -80px;
 }
 }
+@media (max-width: 768px) {
+  .cta_area {
+    padding-left: 10px;
+}
+}
+
