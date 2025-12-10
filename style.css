@@ -126,7 +126,22 @@
 .slbmobile{
     display: none;
 }
-
+.appbutton_mobile{
+    background: #c58d25;
+    border: none;
+    border-radius: 25px;
+    border: 2px solid #d1ae6c;
+    padding: 8px 20px;
+    color: #fff;
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    position: absolute;
+    top: 16px;
+    left: 120px;
+    z-index: 1000;
+    width: 170px;
+}
 
 
 @media only screen and (max-width: 991px) {
