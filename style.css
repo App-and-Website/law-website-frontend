@@ -289,6 +289,13 @@
     font-family: Poppins, sans-serif;
 }
 
+.contact-wrap .form-group .form-control {
+    border: 1px solid #d1ae6c;
+    height: 50px;
+    padding-left: 10px;
+    color: #000;
+}
+
 /* === Responsive Breakpoints === */
 
 @media (max-width: 992px) {
