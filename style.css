@@ -515,3 +515,125 @@ footer .footer-item .footer-service ul li a:hover {
 }
 }
 
+
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+
+.workflow-section {
+    background-color: #0f0f0f;
+    padding: 70px 20px;
+}
+
+.workflow-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.workflow-title {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.workflow-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.workflow-card {
+    border: 1px solid #d4af37;
+    padding: 35px 25px;
+    border-radius: 5px;
+    background-color: #141414;
+    transition: 0.3s;
+}
+
+.workflow-card:hover {
+    background-color: #1c1c1c;
+    transform: translateY(-5px);
+}
+
+.workflow-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.workflow-icon i {
+    font-size: 28px;
+    color: #d4af37;
+}
+
+.workflow-card-title {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.workflow-card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #bfbfbf;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .workflow-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .workflow-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .workflow-card {
+        text-align: center;
+    }
+
+    .workflow-icon {
+        margin: 0 auto 20px;
+    }
+}
+
+.loaction-area {
+    position: relative;
+    top: 0px;
+}
+footer .footer-item .footer-find ul li a:hover {
+    color: #d1ae6c;
+    letter-spacing: 0px;
+}
+.contact-form-four {
+    background:#fff;
+}
+.contact-form-four .location-item .location-icon i {
+    top: 20px;
+}
+.contact-wrap .form-group .nice-select.open .list {
+    background-color: #fff !important;
+    border: 1px solid #d1ae6c;
+}
+@media (max-width: 576px) {
+    .parea {
+    margin-bottom: 16px;
+}
+}
+
