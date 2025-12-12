@@ -637,3 +637,12 @@ footer .footer-item .footer-find ul li a:hover {
 }
 }
 
+.blog_area h3{
+    margin-top: 20px;
+}
+.blog-details-item .blog-details-img:before {
+    height: 0px;
+}
+.blog_details_area{
+    padding-top: 120px;
+}
