@@ -637,6 +637,10 @@ footer .footer-item .footer-find ul li a:hover {
 }
 }
 
+.serv_abt{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 .blog_area h3{
     margin-top: 20px;
 }
@@ -645,4 +649,171 @@ footer .footer-item .footer-find ul li a:hover {
 }
 .blog_details_area{
     padding-top: 120px;
+}
+.page-title-text h1{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+.buttons_hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button_call {
+    color: #ffffff;
+    background: #000;
+    border: 2px solid #000;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.button_call:hover {
+    color: #ddd;
+}
+.buttons_hero .side-nav a{
+    background: #a77211;
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+}
+.side-nav a:before {
+    background-color: #c7973f;
+}
+.side-nav a:after {
+    background-color: #c7973f;
+}
+.navbar-nav .nav-item a.active {
+    color: #a77211;
+}
+.service_page_form .banner_form {
+   background: #e4c893;
+}
+.service_page_form .button_customised {
+  background: #000;
+}
+.service_page_form .form-control {
+  background: #fff!important;
+}
+.whysec_service h3{
+    font-size: 18px!important;
+}
+.whysec_service p{
+    font-size: 14px!important;
+}
+.whysec_service .workflow-card {
+    padding: 25px 25px;
+}
+@media (max-width: 991px) {
+.buttons_hero .side-nav{
+   display: block!important;
+}
+.page_banner{
+    height: 100%!important;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.buttons_hero .side-nav a{
+    padding: 8px 18px;
+}
+.button_call {
+     padding: 8px 18px;
+}
+.buttons_hero{
+    gap: 8px;
+}
+.page_banner .banner_form {
+    margin-left: 0px!important;
+}
+.serv_abt{
+    padding-bottom: 0px;
+}
+}
+
+
+
+/* THANK YOU SECTION WRAPPER */
+.aat-thankyou-section {
+    background: #f8f6f2;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/* MAIN CONTAINER */
+.aat-thankyou-container {
+    max-width: 700px;
+    width: 100%;
+}
+
+/* INNER BOX */
+.aat-thankyou-box {
+    background: #ffffff;
+    border: 1px solid #e6e1d9;
+    border-radius: 12px;
+    padding: 50px 35px;
+    text-align: center;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+}
+
+/* ICON */
+.aat-thankyou-icon i {
+    font-size: 70px;
+    color: #C9A86A;
+    margin-bottom: 20px;
+}
+
+/* TITLE */
+.aat-thankyou-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1b1b1b;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* MESSAGE */
+.aat-thankyou-message {
+    font-size: 18px;
+    color: #444444;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+/* BUTTON */
+.aat-thankyou-btn {
+    display: inline-block;
+    background: #C9A86A;
+    color: #ffffff;
+    padding: 14px 32px;
+    font-size: 17px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.aat-thankyou-btn:hover {
+    background: #a98954;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .aat-thankyou-box {
+        padding: 40px 25px;
+    }
+
+    .aat-thankyou-title {
+        font-size: 26px;
+    }
+
+    .aat-thankyou-message {
+        font-size: 16px;
+    }
+
+    .aat-thankyou-icon i {
+        font-size: 55px;
+    }
 }
